@@ -10,13 +10,13 @@ import {
 } from "lucide-react";
 
 const menuItems = [
-  { name: "Dashboard", icon: LayoutDashboard, path: "/super-admin/dashboard" },
-  { name: "Companies", icon: Building2, path: "/super-admin/companies" },
-  { name: "Employees", icon: Users, path: "/super-admin/employees" },
-  { name: "Projects", icon: FolderKanban, path: "/super-admin/projects" },
-  { name: "Reports", icon: FileText, path: "/super-admin/reports" },
-  { name: "Notifications", icon: Bell, path: "/super-admin/notifications" },
-  { name: "Settings", icon: Settings, path: "/super-admin/settings" },
+  { name: "Dashboard", icon: LayoutDashboard, path: "/" },
+  { name: "Workspace", icon: Building2, path: "/workspace" },
+  // { name: "Employees", icon: Users, path: "/super-admin/employees" },
+  // { name: "Projects", icon: FolderKanban, path: "/super-admin/projects" },
+  // { name: "Reports", icon: FileText, path: "/super-admin/reports" },
+  // { name: "Notifications", icon: Bell, path: "/super-admin/notifications" },
+  // { name: "Settings", icon: Settings, path: "/super-admin/settings" },
 ];
 
 export default function AppSidebar() {
