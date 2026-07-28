@@ -2,10 +2,10 @@ import { Bell, Search, Sun, ChevronDown } from "lucide-react";
 
 export default function AppHeader() {
   return (
-    <header className="sticky top-0 z-40 flex h-[74px] items-center justify-between border-b border-[#E7E4DE] bg-white px-7">
+    <header className="sticky top-0 z-40 flex h-18.5 items-center justify-between border-b border-[#E7E4DE] bg-white px-7">
       
       {/* Search Bar - styled to match the template's input */}
-      <div className="relative w-[280px]">
+      <div className="relative w-70">
         <Search
           className="absolute left-3.5 top-1/2 -translate-y-1/2 text-[#A6A29A]"
           size={16}
@@ -14,7 +14,7 @@ export default function AppHeader() {
         <input
           type="text"
           placeholder="Search..."
-          className="w-full rounded-[9px] border border-[#E7E4DE] bg-[#F7F6F2] py-2 pl-10 pr-4 text-[13px] text-[#181715] outline-none transition-all duration-200 focus:w-[310px] focus:border-[#E8A23D] focus:bg-white"
+          className="w-full rounded-[9px] border border-[#E7E4DE] bg-[#F7F6F2] py-2 pl-10 pr-4 text-[13px] text-[#181715] outline-none transition-all duration-200 focus:w-77.5 focus:border-[#E8A23D] focus:bg-white"
         />
       </div>
 
@@ -40,7 +40,7 @@ export default function AppHeader() {
           <div className="relative flex h-8 w-8 items-center justify-center rounded-[9px] bg-[#1C1B19] text-[12.5px] font-bold text-[#E8A23D]">
             SA
             {/* Active Status Dot */}
-            <span className="absolute -bottom-[2px] -right-[2px] h-[10px] w-[10px] rounded-full border-2 border-white bg-[#1E8E5A]"></span>
+            <span className="absolute -bottom-0.5 -right-0.5 h-2.5 w-2.5 rounded-full border-2 border-white bg-[#1E8E5A]"></span>
           </div>
 
           <div className="text-left">

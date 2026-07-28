@@ -11,7 +11,7 @@ export default function AppLayout() {
       <Backdrop />
       <div className="flex-1 flex flex-col ml-50">
         <AppHeader />
-        <main className="p-6">
+        <main className="">
           <Outlet />
         </main>
       </div>
